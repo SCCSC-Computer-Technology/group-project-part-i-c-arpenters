@@ -1,0 +1,16 @@
+C:\Users\broke\source\repos\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.exe
+C:\Users\broke\source\repos\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.deps.json
+C:\Users\broke\source\repos\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.runtimeconfig.json
+C:\Users\broke\source\repos\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.dll
+C:\Users\broke\source\repos\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.pdb
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.Form1.resources
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.csproj.GenerateResource.cache
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.AssemblyInfoInputs.cache
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.AssemblyInfo.cs
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.csproj.CoreCompileInputs.cache
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.dll
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\refint\TestFormForGit.dll
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.pdb
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.genruntimeconfig.cache
+C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\ref\TestFormForGit.dll
