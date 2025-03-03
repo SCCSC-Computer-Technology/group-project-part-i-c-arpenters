@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\broke\\source\\repos\\TestFormForGit\\TestFormForGit.csproj": {}
+    "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\TestFormForGit\\TestFormForGit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\broke\\source\\repos\\TestFormForGit\\TestFormForGit.csproj": {
+    "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\TestFormForGit\\TestFormForGit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\broke\\source\\repos\\TestFormForGit\\TestFormForGit.csproj",
+        "projectUniqueName": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\TestFormForGit\\TestFormForGit.csproj",
         "projectName": "TestFormForGit",
-        "projectPath": "C:\\Users\\broke\\source\\repos\\TestFormForGit\\TestFormForGit.csproj",
-        "packagesPath": "C:\\Users\\broke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\broke\\source\\repos\\TestFormForGit\\obj\\",
+        "projectPath": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\TestFormForGit\\TestFormForGit.csproj",
+        "packagesPath": "C:\\Users\\magic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\TestFormForGit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\broke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\magic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

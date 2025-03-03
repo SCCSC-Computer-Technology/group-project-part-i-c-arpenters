@@ -14,3 +14,19 @@ C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\refint\TestF
 C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.pdb
 C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.genruntimeconfig.cache
 C:\Users\broke\source\repos\TestFormForGit\obj\Debug\net8.0-windows\ref\TestFormForGit.dll
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.exe
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.deps.json
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.runtimeconfig.json
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.dll
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\bin\Debug\net8.0-windows\TestFormForGit.pdb
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.Form1.resources
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.csproj.GenerateResource.cache
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.AssemblyInfoInputs.cache
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.AssemblyInfo.cs
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.csproj.CoreCompileInputs.cache
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.dll
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\refint\TestFormForGit.dll
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.pdb
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\TestFormForGit.genruntimeconfig.cache
+C:\Users\magic\Downloads\group-project-part-i-c-arpenters-main (1)\group-project-part-i-c-arpenters-main\TestFormForGit\obj\Debug\net8.0-windows\ref\TestFormForGit.dll
