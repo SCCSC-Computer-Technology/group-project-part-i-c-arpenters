@@ -25,3 +25,7 @@ C:\Users\magic\source\repos\Group Project Draft\bin\Debug\HtmlAgilityPack.pdb
 C:\Users\magic\source\repos\Group Project Draft\bin\Debug\HtmlAgilityPack.xml
 C:\Users\magic\source\repos\Group Project Draft\bin\Debug\Sports.mdf
 C:\Users\magic\source\repos\Group Project Draft\bin\Debug\Sports_log.ldf
+C:\Users\magic\source\repos\Group Project Draft\bin\Debug\PllStats.mdf
+C:\Users\magic\source\repos\Group Project Draft\bin\Debug\PllStats_log.ldf
+C:\Users\magic\source\repos\Group Project Draft\obj\Debug\Group_Project_Draft.UpdateProfile.resources
+C:\Users\magic\source\repos\Group Project Draft\obj\Debug\Group_Project_Draft.HangMan.resources

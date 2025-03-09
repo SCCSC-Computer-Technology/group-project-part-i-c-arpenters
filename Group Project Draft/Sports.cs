@@ -1,13 +1,22 @@
-﻿using System;
+﻿using Microsoft.Office.Interop.Word;
+using System;
+using System.Media;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+/* C#arpenters Group Project
+ * CPT 206 - Brandon Hines, Caleb Thompson, Kara Crumpton
+ * Sports Stats Application
+ * Pics from freepik.com, Wikipedia, and OpenArt AI
+ */
 
 
 namespace Group_Project_Draft
@@ -22,7 +31,7 @@ namespace Group_Project_Draft
             LoadUserData();
         }
 
-        
+        // Tailor the page for the user that's logged in
         private void LoadUserData()
         {
             string connectionString = "Data Source=UserDatabase.db;Version=3;";
@@ -33,16 +42,16 @@ namespace Group_Project_Draft
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@username", currentUsername);
-                    var result = cmd.ExecuteScalar(); // Gets the favorite sport
+                    var result = cmd.ExecuteScalar(); // Gets their favorite sport
 
-                    titleLabel.Text = $"Hello, {currentUsername}!!";
+                    titleLabel.Text = $"Hello, {currentUsername}!!           Welcome to the C#arpenters Sports App!";
 
-                    // Check if the result is null or empty
+                    // Check to make sure it's not empty
                     if (result != null)
                     {
                         string favoriteSport = result.ToString();
 
-                        // Tailor the page based on the favorite sport
+                        // Make their homepage the theme of whatever their favorite sport is
                         if (favoriteSport == "Basketball")
                         {
                             SetBasketballTheme();
@@ -58,7 +67,7 @@ namespace Group_Project_Draft
                         }
                         else
                         {
-                            // Don't really need this... but it's here anyway
+                            // Don't really need this... but it's here anyway - in case there isn't a favorite sport for that person. 
                             this.BackColor = Color.Gray; // Default background
                         }
                     }
@@ -70,76 +79,136 @@ namespace Group_Project_Draft
             }
         }
 
+        // Stuff for the Basketballl page
         private void SetBasketballTheme()
         {
+
+            // Added Sound Effects - Mike Breen's Bang plays on the Basketball page
+            try
+            {
+                // Path to the file - it's in the Debug folder. 
+                string soundPath = System.Windows.Forms.Application.StartupPath + @"\Bang.wav";
+                SoundPlayer rumbleSound = new SoundPlayer(soundPath);
+                rumbleSound.Play();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error playing sound: " + ex.Message);
+            }
+
             this.BackColor = Color.Blue;
             titleLabel.ForeColor = Color.White;
             infoLabel.ForeColor = Color.White;
             otherLabel.ForeColor = Color.White;
             infoLabel.Text = "Current Basketball Schedule:";
-            //ballBtn.Visible = false;
-            //midgetBtn.Location = new Point(1105, 410);
-            //midgetBtn.Visible = true;
-            //lacrosseBtn.Visible = true;
-            //lacrosseBtn.Location = new Point(1105, 488);
-            string imagePath = Application.StartupPath + @"\basketball.jpg";
+            string imagePath = System.Windows.Forms.Application.StartupPath + @"\basketball.jpg";
             picBox1.Image = Image.FromFile(imagePath);
             picBox1.SizeMode = PictureBoxSizeMode.Zoom; // Setting this in properties NEVER works. I always have to do it here?
-            eventBox.Items.Clear();
-            eventBox.Items.Add("Basketball Schedule will show here.");
             logoBox1.Visible = false;
             logoBox2.Visible = false;
             logoBox3.Visible = false;
             logoBox4.Visible = false;
+            LSchedule.Visible = false;
         }
 
+        // Stuff for the Lacrosse page
         private void SetLacrosseTheme()
         {
+
+            // Added Sound Effects - A clip from American Pie plays when the Lacrosse page loads. 
+            try
+            {
+                // Path to the file - it's in the Debug folder. 
+                string soundPath = System.Windows.Forms.Application.StartupPath + @"\Pie.wav";
+                SoundPlayer rumbleSound = new SoundPlayer(soundPath);
+                rumbleSound.Play();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error playing sound: " + ex.Message);
+            }
+
+            // Set the background image from the debug folder
             this.BackColor = Color.Green;
-            titleLabel.ForeColor = Color.White;
-            infoLabel.ForeColor = Color.White;
-            otherLabel.ForeColor = Color.White;
+            string imagePath3 = System.Windows.Forms.Application.StartupPath + @"\LB.jpg"; 
+            this.BackgroundImage = Image.FromFile(imagePath3);
+            this.BackgroundImageLayout = ImageLayout.Stretch; 
+
+            titleLabel.ForeColor = Color.Black;
+            titleLabel.BackColor = Color.Transparent;
+            infoLabel.ForeColor = Color.Black;
+            infoLabel.BackColor = Color.Transparent;
+            otherLabel.ForeColor = Color.Black;
+            otherLabel.BackColor = Color.Transparent;
             infoLabel.Text = "Current Lacrosse Schedule:";
-            //ballBtn.Visible = true;
-            //ballBtn.Location = new Point(1105, 488);
-            //midgetBtn.Location = new Point(1105, 410);
-            //midgetBtn.Visible = true;
-            //lacrosseBtn.Visible = false;
-            string imagePath = Application.StartupPath + @"\lacrosse.jpg";
+            string imagePath = System.Windows.Forms.Application.StartupPath + @"\lacrosse.jpg";
             picBox1.Image = Image.FromFile(imagePath);
             picBox1.SizeMode = PictureBoxSizeMode.Zoom; // Setting this in properties NEVER works. I always have to do it here?
-            eventBox.Items.Clear( );
-            eventBox.Items.Add("Lacrosse Schedule will show here.");
-            logoBox1.Visible = false;
-            logoBox2.Visible = false;
-            logoBox3.Visible = false;
-            logoBox4.Visible = false;
+            picBox1.BackColor = Color.Transparent;
+            string imagePath2 = System.Windows.Forms.Application.StartupPath + @"\";
+            logoBox1.Visible = true;
+            logoBox1.BackColor = Color.Transparent;
+            logoBox2.Visible = true;
+            logoBox2.BackColor = Color.Transparent;
+            logoBox3.Visible = true;
+            logoBox3.BackColor = Color.Transparent;
+            logoBox4.Visible = true;
+            logoBox4.BackColor = Color.Transparent;
+            logoBox1.Image = Image.FromFile(imagePath2 + "CAN.jpg");
+            logoBox2.Image = Image.FromFile(imagePath2 + "CHA.jpg");
+            logoBox3.Image = Image.FromFile(imagePath2 + "WAT.jpg");
+            logoBox4.Image = Image.FromFile(imagePath2 + "RED.jpg");
+            logoBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            logoBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            logoBox3.SizeMode = PictureBoxSizeMode.Zoom;
+            logoBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            LSchedule.Visible = true;
+            WSchedule.Visible = false;
         }
 
+        // Stuff for the Wrestling page
         private void SetWrestlingTheme()
         {
+
+            // Added Sound Effects - "Let's Get Ready to Rumble!" plays when the Wrestling page loads. 
+            try
+            {
+                // Path to the file - it's in the Debug folder. 
+                string soundPath = System.Windows.Forms.Application.StartupPath + @"\Rumble.wav";
+                SoundPlayer rumbleSound = new SoundPlayer(soundPath);
+                rumbleSound.Play();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error playing sound: " + ex.Message);
+            }
+
+
             this.BackColor = Color.Black;
-            titleLabel.ForeColor = Color.Red;
-            infoLabel.ForeColor = Color.Red;
+            string imagePath4 = System.Windows.Forms.Application.StartupPath + @"\WB.png";
+            this.BackgroundImage = Image.FromFile(imagePath4);
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            titleLabel.ForeColor = Color.Black;
+            titleLabel.BackColor = Color.Transparent;
+            infoLabel.ForeColor = Color.Black;
+            infoLabel.BackColor = Color.Transparent;
             infoLabel.Text = "Current Micro Wrestling Schedule:";
-            otherLabel.ForeColor = Color.Red;
-            //midgetBtn.Visible = false;
-            //ballBtn.Visible = true;
-            //ballBtn.Location = new Point(1105, 488);
-            //lacrosseBtn.Visible = true;
-            //lacrosseBtn.Location = new Point(1105, 410);
-            string imagePath = Application.StartupPath + @"\midgetwrestling.jpg";
+            otherLabel.ForeColor = Color.Black;
+            otherLabel.BackColor = Color.Transparent;
+            string imagePath = System.Windows.Forms.Application.StartupPath + @"\midgetwrestling.jpg";
             picBox1.Image = Image.FromFile(imagePath);
+            picBox1.BackColor = Color.Transparent;
             picBox1.SizeMode = PictureBoxSizeMode.Zoom; // Setting this in properties NEVER works. I always have to do it here?
-            eventBox.Items.Clear();
-            eventBox.Items.Add("Wrestling Schedule will show here.");
-            // HAHA! THIS IS COOL... Just figured out how to do this with 2 different "imagePath" things. WOO HOO!
-            string imagePath2 = Application.StartupPath +@"\";
+            string imagePath2 = System.Windows.Forms.Application.StartupPath + @"\";
             logoBox1.Visible = true;
+            logoBox1.BackColor = Color.Transparent;
             logoBox2.Visible = true;
+            logoBox2.BackColor = Color.Transparent;
             logoBox3.Visible = true;
+            logoBox3.BackColor = Color.Transparent;
             logoBox4.Visible = true;
-            logoBox1.Image = Image.FromFile(imagePath2 + "MWF.png"); 
+            logoBox4.BackColor = Color.Transparent;
+            logoBox1.Image = Image.FromFile(imagePath2 + "MWF.png");
             logoBox2.Image = Image.FromFile(imagePath2 + "CMLL.png");
             logoBox3.Image = Image.FromFile(imagePath2 + "ECW.png");
             logoBox4.Image = Image.FromFile(imagePath2 + "AAA.png");
@@ -147,8 +216,12 @@ namespace Group_Project_Draft
             logoBox2.SizeMode = PictureBoxSizeMode.Zoom;
             logoBox3.SizeMode = PictureBoxSizeMode.Zoom;
             logoBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            LSchedule.Visible = false;
+            WSchedule.Visible = true;
 
         }
+
+        // Changes the theme if you click a different sport
         private void ballBtn_Click(object sender, EventArgs e)
         {
             SetBasketballTheme();
@@ -160,20 +233,141 @@ namespace Group_Project_Draft
             this.Close();
         }
 
+        // Goes to the data page for the stats depending on the sport 
         private void statsBtn_Click(object sender, EventArgs e)
         {
-            Data dataForm = new Data();
+            string selectedSport = "";
+
+            if (this.BackColor == Color.Blue)
+                selectedSport = "Basketball";
+            else if (this.BackColor == Color.Green)
+                selectedSport = "Lacrosse";
+            else if (this.BackColor == Color.Black)
+                selectedSport = "Midget Wrestling";
+
+            Data dataForm = new Data(selectedSport);
             dataForm.ShowDialog();
         }
 
+        // Sets Lacrosse theme
         private void lacrosseBtn_Click(object sender, EventArgs e)
         {
             SetLacrosseTheme();
         }
 
+        // Sets Wrestling theme
         private void midgetBtn_Click(object sender, EventArgs e)
         {
             SetWrestlingTheme();
         }
+
+        // Loads the tables
+        private void Sports_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'sportsDataSet2.WrestlingSchedule' table. You can move, or remove it, as needed.
+            this.wrestlingScheduleTableAdapter.Fill(this.sportsDataSet2.WrestlingSchedule);
+            // TODO: This line of code loads data into the 'pllStatsDataSet.LacrosseSchedule' table. You can move, or remove it, as needed.
+            this.lacrosseScheduleTableAdapter.Fill(this.pllStatsDataSet.LacrosseSchedule);
+            // TODO: This line of code loads data into the 'pllStatsDataSet._pll_team_stats' table. You can move, or remove it, as needed.
+            this.pll_team_statsTableAdapter.Fill(this.pllStatsDataSet._pll_team_stats);
+
+        }
+
+
+        // Save the Schedule as a doc file
+        private void saveBtn_Click(object sender, EventArgs e)
+        {
+            DataGridView activeSchedule;
+            string scheduleName;
+
+            // Figure out which Schedule is showing so it saves correctly
+            if (WSchedule.Visible)
+            {
+                activeSchedule = WSchedule;
+                scheduleName = "Wrestling Schedule";
+            }
+            else if (LSchedule.Visible)
+            {
+                activeSchedule = LSchedule;
+                scheduleName = "Lacrosse Schedule";
+            }
+            else
+            {
+                MessageBox.Show("No data to export.");
+                return;
+            }
+
+            if (activeSchedule.Rows.Count == 0)
+            {
+                MessageBox.Show("No data to export.");
+                return;
+            }
+
+            try
+            {
+                // Create a Word application to save the file. Had to Google pretty much all of this.
+                Microsoft.Office.Interop.Word.Application wordApp = new Microsoft.Office.Interop.Word.Application();
+                Microsoft.Office.Interop.Word.Document doc = wordApp.Documents.Add();
+
+                // Add a title
+                Microsoft.Office.Interop.Word.Paragraph title = doc.Paragraphs.Add();
+                title.Range.Text = scheduleName;
+                title.Range.Font.Size = 13;
+                title.Range.Font.Bold = 1;
+                title.Alignment = Microsoft.Office.Interop.Word.WdParagraphAlignment.wdAlignParagraphCenter;
+                title.Range.InsertParagraphAfter();
+
+                // Add a table with DataGridView contents
+                int rowCount = activeSchedule.Rows.Count;
+                int colCount = activeSchedule.Columns.Count;
+
+                Microsoft.Office.Interop.Word.Table table = doc.Tables.Add(doc.Range(), rowCount + 1, colCount);
+                table.Borders.Enable = 1; // Add table borders
+                table.Rows[1].Range.Font.Bold = 1; // Bold the header row
+                table.Rows[1].Range.ParagraphFormat.Alignment = Microsoft.Office.Interop.Word.WdParagraphAlignment.wdAlignParagraphCenter;
+
+                // Insert column headers
+                for (int col = 0; col < colCount; col++)
+                {
+                    table.Cell(1, col + 1).Range.Text = activeSchedule.Columns[col].HeaderText;
+                }
+
+                // Insert rows with formatting
+                for (int row = 0; row < rowCount; row++)
+                {
+                    for (int col = 0; col < colCount; col++)
+                    {
+                        string cellText = activeSchedule.Rows[row].Cells[col].Value?.ToString() ?? "";
+
+                        // Format DateTime columns if applicable
+                        if (DateTime.TryParse(cellText, out DateTime dateValue))
+                        {
+                            cellText = dateValue.ToString("MM/dd/yyyy hh:mm tt"); // Format as "MM/DD/YYYY HH:MM AM/PM"
+                        }
+
+                        table.Cell(row + 2, col + 1).Range.Text = cellText;
+                    }
+                }
+
+                // Auto-fit columns for better appearance
+                table.AutoFitBehavior(Microsoft.Office.Interop.Word.WdAutoFitBehavior.wdAutoFitContent);
+
+                // Save the file 
+                string docPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), $"{scheduleName}.docx");
+
+                doc.SaveAs2(docPath);
+                doc.Close();
+                wordApp.Quit();
+
+                MessageBox.Show($"{scheduleName} exported successfully!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+        }
     }
 }
+
+
+

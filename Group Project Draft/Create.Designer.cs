@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Create));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,15 +49,17 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(98, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(479, 50);
+            this.label1.Size = new System.Drawing.Size(492, 50);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Welcome to Sports Stuff";
+            this.label1.Text = "Welcome to Sports Stuff!\r\n";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(207, 78);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(233, 22);
@@ -66,6 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(136, 128);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 22);
@@ -75,6 +79,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(181, 173);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(59, 22);
@@ -84,6 +89,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(146, 211);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(94, 22);
@@ -93,6 +99,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label6.Location = new System.Drawing.Point(75, 250);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(165, 22);
@@ -153,6 +160,7 @@
             // sportLabel
             // 
             this.sportLabel.AutoSize = true;
+            this.sportLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.sportLabel.Location = new System.Drawing.Point(103, 292);
             this.sportLabel.Name = "sportLabel";
             this.sportLabel.Size = new System.Drawing.Size(132, 22);
@@ -169,13 +177,15 @@
             this.sportBox.Location = new System.Drawing.Point(246, 289);
             this.sportBox.Name = "sportBox";
             this.sportBox.Size = new System.Drawing.Size(177, 30);
-            this.sportBox.TabIndex = 14;
+            this.sportBox.TabIndex = 11;
             // 
             // Create
             // 
             this.AcceptButton = this.createBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.backBtn;
             this.ClientSize = new System.Drawing.Size(696, 407);
             this.Controls.Add(this.sportBox);

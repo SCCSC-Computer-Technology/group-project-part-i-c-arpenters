@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.titleLabel = new System.Windows.Forms.Label();
             this.ballBtn = new System.Windows.Forms.Button();
             this.midgetBtn = new System.Windows.Forms.Button();
@@ -35,34 +36,65 @@
             this.exitBtn = new System.Windows.Forms.Button();
             this.picBox1 = new System.Windows.Forms.PictureBox();
             this.infoLabel = new System.Windows.Forms.Label();
-            this.eventBox = new System.Windows.Forms.ListBox();
             this.statsBtn = new System.Windows.Forms.Button();
             this.otherLabel = new System.Windows.Forms.Label();
-            this.updateBtn = new System.Windows.Forms.Button();
             this.logoBox1 = new System.Windows.Forms.PictureBox();
             this.logoBox2 = new System.Windows.Forms.PictureBox();
             this.logoBox3 = new System.Windows.Forms.PictureBox();
             this.logoBox4 = new System.Windows.Forms.PictureBox();
+            this.pllStatsDataSet = new Group_Project_Draft.PllStatsDataSet();
+            this.pllteamstatsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.pll_team_statsTableAdapter = new Group_Project_Draft.PllStatsDataSetTableAdapters.pll_team_statsTableAdapter();
+            this.lacrosseScheduleBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.lacrosseScheduleTableAdapter = new Group_Project_Draft.PllStatsDataSetTableAdapters.LacrosseScheduleTableAdapter();
+            this.tableAdapterManager = new Group_Project_Draft.PllStatsDataSetTableAdapters.TableAdapterManager();
+            this.LSchedule = new System.Windows.Forms.DataGridView();
+            this.iDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.homeTeamDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.awayTeamDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gameDateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gameTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.locationDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.WSchedule = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.teamDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.timeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.establishmentDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.locationDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.wrestlingScheduleBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sportsDataSet2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sportsDataSet2 = new Group_Project_Draft.SportsDataSet2();
+            this.wrestlingScheduleTableAdapter = new Group_Project_Draft.SportsDataSet2TableAdapters.WrestlingScheduleTableAdapter();
+            this.saveBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pllStatsDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pllteamstatsBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lacrosseScheduleBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LSchedule)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WSchedule)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wrestlingScheduleBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sportsDataSet2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sportsDataSet2)).BeginInit();
             this.SuspendLayout();
             // 
             // titleLabel
             // 
             this.titleLabel.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(35, 19);
+            this.titleLabel.Location = new System.Drawing.Point(12, 18);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(730, 61);
+            this.titleLabel.Size = new System.Drawing.Size(1425, 61);
             this.titleLabel.TabIndex = 2;
             this.titleLabel.Text = "C#arpenters Sports Application\r\n";
-            this.titleLabel.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.titleLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ballBtn
             // 
-            this.ballBtn.Location = new System.Drawing.Point(1105, 410);
+            this.ballBtn.Location = new System.Drawing.Point(571, 695);
             this.ballBtn.Name = "ballBtn";
             this.ballBtn.Size = new System.Drawing.Size(157, 42);
             this.ballBtn.TabIndex = 3;
@@ -72,7 +104,7 @@
             // 
             // midgetBtn
             // 
-            this.midgetBtn.Location = new System.Drawing.Point(1096, 572);
+            this.midgetBtn.Location = new System.Drawing.Point(987, 695);
             this.midgetBtn.Name = "midgetBtn";
             this.midgetBtn.Size = new System.Drawing.Size(176, 42);
             this.midgetBtn.TabIndex = 8;
@@ -82,7 +114,7 @@
             // 
             // lacrosseBtn
             // 
-            this.lacrosseBtn.Location = new System.Drawing.Point(1105, 488);
+            this.lacrosseBtn.Location = new System.Drawing.Point(775, 695);
             this.lacrosseBtn.Name = "lacrosseBtn";
             this.lacrosseBtn.Size = new System.Drawing.Size(157, 42);
             this.lacrosseBtn.TabIndex = 15;
@@ -102,7 +134,7 @@
             // 
             // picBox1
             // 
-            this.picBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.picBox1.Location = new System.Drawing.Point(45, 215);
             this.picBox1.Name = "picBox1";
             this.picBox1.Size = new System.Drawing.Size(398, 437);
@@ -111,26 +143,17 @@
             // 
             // infoLabel
             // 
-            this.infoLabel.Font = new System.Drawing.Font("Imprint MT Shadow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infoLabel.Location = new System.Drawing.Point(567, 244);
+            this.infoLabel.Font = new System.Drawing.Font("Imprint MT Shadow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infoLabel.Location = new System.Drawing.Point(612, 231);
             this.infoLabel.Name = "infoLabel";
-            this.infoLabel.Size = new System.Drawing.Size(339, 46);
+            this.infoLabel.Size = new System.Drawing.Size(506, 46);
             this.infoLabel.TabIndex = 18;
             this.infoLabel.Text = "Current Micro Wrestling Schedule:\r\n";
             this.infoLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // eventBox
-            // 
-            this.eventBox.FormattingEnabled = true;
-            this.eventBox.ItemHeight = 22;
-            this.eventBox.Location = new System.Drawing.Point(509, 293);
-            this.eventBox.Name = "eventBox";
-            this.eventBox.Size = new System.Drawing.Size(462, 246);
-            this.eventBox.TabIndex = 19;
-            // 
             // statsBtn
             // 
-            this.statsBtn.Location = new System.Drawing.Point(1096, 293);
+            this.statsBtn.Location = new System.Drawing.Point(775, 569);
             this.statsBtn.Name = "statsBtn";
             this.statsBtn.Size = new System.Drawing.Size(176, 42);
             this.statsBtn.TabIndex = 20;
@@ -140,25 +163,17 @@
             // 
             // otherLabel
             // 
-            this.otherLabel.Font = new System.Drawing.Font("Imprint MT Shadow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.otherLabel.Location = new System.Drawing.Point(1024, 362);
+            this.otherLabel.Font = new System.Drawing.Font("Imprint MT Shadow", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.otherLabel.Location = new System.Drawing.Point(698, 636);
             this.otherLabel.Name = "otherLabel";
             this.otherLabel.Size = new System.Drawing.Size(328, 28);
             this.otherLabel.TabIndex = 21;
             this.otherLabel.Text = "Or check out some other sports:\r\n";
             this.otherLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // updateBtn
-            // 
-            this.updateBtn.Location = new System.Drawing.Point(45, 108);
-            this.updateBtn.Name = "updateBtn";
-            this.updateBtn.Size = new System.Drawing.Size(157, 31);
-            this.updateBtn.TabIndex = 22;
-            this.updateBtn.Text = "Update Profile\r\n";
-            this.updateBtn.UseVisualStyleBackColor = true;
-            // 
             // logoBox1
             // 
+            this.logoBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.logoBox1.Location = new System.Drawing.Point(392, 108);
             this.logoBox1.Name = "logoBox1";
             this.logoBox1.Size = new System.Drawing.Size(171, 84);
@@ -189,19 +204,187 @@
             this.logoBox4.TabIndex = 26;
             this.logoBox4.TabStop = false;
             // 
+            // pllStatsDataSet
+            // 
+            this.pllStatsDataSet.DataSetName = "PllStatsDataSet";
+            this.pllStatsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // pllteamstatsBindingSource
+            // 
+            this.pllteamstatsBindingSource.DataMember = "pll-team-stats";
+            this.pllteamstatsBindingSource.DataSource = this.pllStatsDataSet;
+            // 
+            // pll_team_statsTableAdapter
+            // 
+            this.pll_team_statsTableAdapter.ClearBeforeFill = true;
+            // 
+            // lacrosseScheduleBindingSource
+            // 
+            this.lacrosseScheduleBindingSource.DataMember = "LacrosseSchedule";
+            this.lacrosseScheduleBindingSource.DataSource = this.pllStatsDataSet;
+            // 
+            // lacrosseScheduleTableAdapter
+            // 
+            this.lacrosseScheduleTableAdapter.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager
+            // 
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.LacrosseScheduleTableAdapter = this.lacrosseScheduleTableAdapter;
+            this.tableAdapterManager.pll_player_statsTableAdapter = null;
+            this.tableAdapterManager.pll_team_statsTableAdapter = this.pll_team_statsTableAdapter;
+            this.tableAdapterManager.UpdateOrder = Group_Project_Draft.PllStatsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // LSchedule
+            // 
+            this.LSchedule.AutoGenerateColumns = false;
+            this.LSchedule.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.LSchedule.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.iDDataGridViewTextBoxColumn,
+            this.homeTeamDataGridViewTextBoxColumn,
+            this.awayTeamDataGridViewTextBoxColumn,
+            this.gameDateDataGridViewTextBoxColumn,
+            this.gameTimeDataGridViewTextBoxColumn,
+            this.locationDataGridViewTextBoxColumn});
+            this.LSchedule.DataSource = this.lacrosseScheduleBindingSource;
+            this.LSchedule.Location = new System.Drawing.Point(540, 292);
+            this.LSchedule.Name = "LSchedule";
+            this.LSchedule.Size = new System.Drawing.Size(644, 241);
+            this.LSchedule.TabIndex = 27;
+            // 
+            // iDDataGridViewTextBoxColumn
+            // 
+            this.iDDataGridViewTextBoxColumn.DataPropertyName = "ID";
+            this.iDDataGridViewTextBoxColumn.HeaderText = "ID";
+            this.iDDataGridViewTextBoxColumn.Name = "iDDataGridViewTextBoxColumn";
+            this.iDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // homeTeamDataGridViewTextBoxColumn
+            // 
+            this.homeTeamDataGridViewTextBoxColumn.DataPropertyName = "HomeTeam";
+            this.homeTeamDataGridViewTextBoxColumn.HeaderText = "HomeTeam";
+            this.homeTeamDataGridViewTextBoxColumn.Name = "homeTeamDataGridViewTextBoxColumn";
+            // 
+            // awayTeamDataGridViewTextBoxColumn
+            // 
+            this.awayTeamDataGridViewTextBoxColumn.DataPropertyName = "AwayTeam";
+            this.awayTeamDataGridViewTextBoxColumn.HeaderText = "AwayTeam";
+            this.awayTeamDataGridViewTextBoxColumn.Name = "awayTeamDataGridViewTextBoxColumn";
+            // 
+            // gameDateDataGridViewTextBoxColumn
+            // 
+            this.gameDateDataGridViewTextBoxColumn.DataPropertyName = "GameDate";
+            this.gameDateDataGridViewTextBoxColumn.HeaderText = "GameDate";
+            this.gameDateDataGridViewTextBoxColumn.Name = "gameDateDataGridViewTextBoxColumn";
+            // 
+            // gameTimeDataGridViewTextBoxColumn
+            // 
+            this.gameTimeDataGridViewTextBoxColumn.DataPropertyName = "GameTime";
+            this.gameTimeDataGridViewTextBoxColumn.HeaderText = "GameTime";
+            this.gameTimeDataGridViewTextBoxColumn.Name = "gameTimeDataGridViewTextBoxColumn";
+            // 
+            // locationDataGridViewTextBoxColumn
+            // 
+            this.locationDataGridViewTextBoxColumn.DataPropertyName = "Location";
+            this.locationDataGridViewTextBoxColumn.HeaderText = "Location";
+            this.locationDataGridViewTextBoxColumn.Name = "locationDataGridViewTextBoxColumn";
+            // 
+            // WSchedule
+            // 
+            this.WSchedule.AutoGenerateColumns = false;
+            this.WSchedule.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.WSchedule.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn1,
+            this.teamDataGridViewTextBoxColumn,
+            this.dateDataGridViewTextBoxColumn,
+            this.timeDataGridViewTextBoxColumn,
+            this.establishmentDataGridViewTextBoxColumn,
+            this.locationDataGridViewTextBoxColumn1});
+            this.WSchedule.DataSource = this.wrestlingScheduleBindingSource;
+            this.WSchedule.Location = new System.Drawing.Point(540, 292);
+            this.WSchedule.Name = "WSchedule";
+            this.WSchedule.Size = new System.Drawing.Size(644, 241);
+            this.WSchedule.TabIndex = 28;
+            // 
+            // idDataGridViewTextBoxColumn1
+            // 
+            this.idDataGridViewTextBoxColumn1.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn1.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn1.Name = "idDataGridViewTextBoxColumn1";
+            // 
+            // teamDataGridViewTextBoxColumn
+            // 
+            this.teamDataGridViewTextBoxColumn.DataPropertyName = "Team";
+            this.teamDataGridViewTextBoxColumn.HeaderText = "Team";
+            this.teamDataGridViewTextBoxColumn.Name = "teamDataGridViewTextBoxColumn";
+            // 
+            // dateDataGridViewTextBoxColumn
+            // 
+            this.dateDataGridViewTextBoxColumn.DataPropertyName = "Date";
+            this.dateDataGridViewTextBoxColumn.HeaderText = "Date";
+            this.dateDataGridViewTextBoxColumn.Name = "dateDataGridViewTextBoxColumn";
+            // 
+            // timeDataGridViewTextBoxColumn
+            // 
+            this.timeDataGridViewTextBoxColumn.DataPropertyName = "Time";
+            this.timeDataGridViewTextBoxColumn.HeaderText = "Time";
+            this.timeDataGridViewTextBoxColumn.Name = "timeDataGridViewTextBoxColumn";
+            // 
+            // establishmentDataGridViewTextBoxColumn
+            // 
+            this.establishmentDataGridViewTextBoxColumn.DataPropertyName = "Establishment";
+            this.establishmentDataGridViewTextBoxColumn.HeaderText = "Establishment";
+            this.establishmentDataGridViewTextBoxColumn.Name = "establishmentDataGridViewTextBoxColumn";
+            // 
+            // locationDataGridViewTextBoxColumn1
+            // 
+            this.locationDataGridViewTextBoxColumn1.DataPropertyName = "Location";
+            this.locationDataGridViewTextBoxColumn1.HeaderText = "Location";
+            this.locationDataGridViewTextBoxColumn1.Name = "locationDataGridViewTextBoxColumn1";
+            // 
+            // wrestlingScheduleBindingSource
+            // 
+            this.wrestlingScheduleBindingSource.DataMember = "WrestlingSchedule";
+            this.wrestlingScheduleBindingSource.DataSource = this.sportsDataSet2BindingSource;
+            // 
+            // sportsDataSet2BindingSource
+            // 
+            this.sportsDataSet2BindingSource.DataSource = this.sportsDataSet2;
+            this.sportsDataSet2BindingSource.Position = 0;
+            // 
+            // sportsDataSet2
+            // 
+            this.sportsDataSet2.DataSetName = "SportsDataSet2";
+            this.sportsDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // wrestlingScheduleTableAdapter
+            // 
+            this.wrestlingScheduleTableAdapter.ClearBeforeFill = true;
+            // 
+            // saveBtn
+            // 
+            this.saveBtn.Location = new System.Drawing.Point(1022, 539);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(162, 31);
+            this.saveBtn.TabIndex = 29;
+            this.saveBtn.Text = "Save Schedule";
+            this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            // 
             // Sports
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1449, 752);
+            this.ClientSize = new System.Drawing.Size(1449, 775);
+            this.Controls.Add(this.saveBtn);
+            this.Controls.Add(this.WSchedule);
+            this.Controls.Add(this.LSchedule);
             this.Controls.Add(this.logoBox4);
             this.Controls.Add(this.logoBox3);
             this.Controls.Add(this.logoBox2);
             this.Controls.Add(this.logoBox1);
-            this.Controls.Add(this.updateBtn);
             this.Controls.Add(this.otherLabel);
             this.Controls.Add(this.statsBtn);
-            this.Controls.Add(this.eventBox);
             this.Controls.Add(this.infoLabel);
             this.Controls.Add(this.picBox1);
             this.Controls.Add(this.exitBtn);
@@ -214,11 +397,20 @@
             this.Name = "Sports";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sports";
+            this.Load += new System.EventHandler(this.Sports_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logoBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pllStatsDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pllteamstatsBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lacrosseScheduleBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.LSchedule)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.WSchedule)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wrestlingScheduleBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sportsDataSet2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sportsDataSet2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -232,13 +424,36 @@
         private System.Windows.Forms.Button exitBtn;
         private System.Windows.Forms.PictureBox picBox1;
         private System.Windows.Forms.Label infoLabel;
-        private System.Windows.Forms.ListBox eventBox;
         private System.Windows.Forms.Button statsBtn;
         private System.Windows.Forms.Label otherLabel;
-        private System.Windows.Forms.Button updateBtn;
         private System.Windows.Forms.PictureBox logoBox1;
         private System.Windows.Forms.PictureBox logoBox2;
         private System.Windows.Forms.PictureBox logoBox3;
         private System.Windows.Forms.PictureBox logoBox4;
+        private PllStatsDataSet pllStatsDataSet;
+        private System.Windows.Forms.BindingSource pllteamstatsBindingSource;
+        private PllStatsDataSetTableAdapters.pll_team_statsTableAdapter pll_team_statsTableAdapter;
+        private System.Windows.Forms.BindingSource lacrosseScheduleBindingSource;
+        private PllStatsDataSetTableAdapters.LacrosseScheduleTableAdapter lacrosseScheduleTableAdapter;
+        private PllStatsDataSetTableAdapters.TableAdapterManager tableAdapterManager;
+        private System.Windows.Forms.DataGridView LSchedule;
+        private System.Windows.Forms.DataGridViewTextBoxColumn iDDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn homeTeamDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn awayTeamDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gameDateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gameTimeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn locationDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridView WSchedule;
+        private System.Windows.Forms.BindingSource sportsDataSet2BindingSource;
+        private SportsDataSet2 sportsDataSet2;
+        private System.Windows.Forms.BindingSource wrestlingScheduleBindingSource;
+        private SportsDataSet2TableAdapters.WrestlingScheduleTableAdapter wrestlingScheduleTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn teamDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn timeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn establishmentDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn locationDataGridViewTextBoxColumn1;
+        private System.Windows.Forms.Button saveBtn;
     }
 }
