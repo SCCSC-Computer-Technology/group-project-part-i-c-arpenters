@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|c:\\users\\magic\\downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\sports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:sports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\sports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:sports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B1A340-DD1B-426E-A2A5-3456BE124565}|Group Project Draft.csproj|solutionrelative:hangman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sports.cs",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Sports.cs",
+              "RelativeDocumentMoniker": "Sports.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Sports.cs",
+              "RelativeToolTip": "Sports.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMBAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:04:12.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sports.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Sports.cs",
+              "RelativeDocumentMoniker": "Sports.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Sports.cs [Design]",
+              "RelativeToolTip": "Sports.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:04:08.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Data.cs",
+              "RelativeDocumentMoniker": "Data.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Data.cs",
+              "RelativeToolTip": "Data.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:04:03.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:03:52.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HangMan.cs",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\HangMan.cs",
+              "RelativeDocumentMoniker": "HangMan.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\HangMan.cs",
+              "RelativeToolTip": "HangMan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:03:42.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HangMan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\HangMan.cs",
+              "RelativeDocumentMoniker": "HangMan.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\HangMan.cs [Design]",
+              "RelativeToolTip": "HangMan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:01:28.103Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:01:25.061Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Data.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Data.cs",
+              "RelativeDocumentMoniker": "Data.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Data.cs [Design]",
+              "RelativeToolTip": "Data.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T15:01:22.401Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Create.cs",
+              "RelativeDocumentMoniker": "Create.cs",
+              "ToolTip": "C:\\Users\\magic\\Downloads\\group-project-part-i-c-arpenters-main (1)\\group-project-part-i-c-arpenters-main\\Create.cs [Design]",
+              "RelativeToolTip": "Create.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T11:09:22.258Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
