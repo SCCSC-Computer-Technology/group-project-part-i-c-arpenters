@@ -11,6 +11,9 @@ I find the code for this form to be well-documented. The LoadUserData method lac
 ### ***Create Form Code***
 I found this form to be well-documented. I like the CreateDatabase method, but as with other methods which use SQL, it does not have a try-catch. The same goes for the UpdateFavoriteSport method.<br> 
 After testing, I found that there is a missing comma in the CREATE TABLE query in the CreateDatabase method, which causes the program to crash if the debug folder has been deleted.
+
+### ***Data Form Code***
+I found the code for this form to be well-documented. I did not notice any problems with the code.
  
 ### ***HangMan Form Code***
 I found this form to be well-documented. One thing I would do differently is check if the entered char is a letter.
