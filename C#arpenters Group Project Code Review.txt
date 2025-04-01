@@ -1,0 +1,13 @@
+I like how Brandon Hines, Caleb Thompson, and Kara Crumpton login
+is very digital-sport decorated theme. Additionally, how Kara made the designs of each background for 
+each sport different from lacrosse to playing hang man to make it more entertaining. Each of the data for
+different sports are oganized and well sorted of going to website (Wiki) to wanting more info, if the user chooses.
+
+Within the code is even more organized from comments and how each form is structured, if button was clicked on for certain
+form. The comments within the code is there along with their team name and the members who are on the team. I also, espically like
+how within the comments, within the Sports.cs form, that the sound effects they used is from YouTube to give credit and to make it 
+more a demo-type, realistic app or website that the user uses whether it's on a daily or not.
+
+Overall, their work ethic and collab has greatly shown within their presentation on the 12th and within the code review. You guys
+have worked tremendously well together and can't wait for future ideas you guys will have on the second group project.
+Fantastic work! :)
