@@ -1,0 +1,19 @@
+C-arpenters group project 1 code Review:
+members kara, Caleb, and Brandon
+
+
+first off love the addition of hangman
+
+the fact that it autofills the password and username right after you make the account is also a nice touch
+
+the pictures on the forms are great
+
+the wiki opening in browser is a nice touch 
+
+the ability for users to add and delete rows may either be a good or bad thing depends on if it updates the database or not could cause loss of data
+
+the code is nice but the amount of property setting commands kind of clutters it a bit but not much
+
+i really like how each form updates based on the sport rather than having multiple forms for each  
+
+over all very nice and functional
